@@ -72,6 +72,8 @@ p {
   border-radius: 3px;
   gap: 10px;
   height: 30px;
+  color: #00ff66;
+  text-align: center;
 }
 
 .password:hover {
