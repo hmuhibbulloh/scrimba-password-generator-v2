@@ -6,9 +6,68 @@
 
 body {
   font-family: "VT323", monospace;
+  background-color: #0d1a0d;
+  color: #eff;
+  font-size: 24px;
 }
 
 button,
 input {
   font-family: inherit;
+  background-color: #00ff66;
+  color: #0d1a0d;
+  border: none;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+h1 {
+  line-height: 0.9;
+}
+
+.highlight {
+  display: block;
+  color: #00ff66;
+}
+
+.hero {
+  width: 90%;
+  max-width: 480px;
+  margin: 100px auto;
+}
+
+hr {
+  margin: 10px 0;
+  border: 2px solid #253134;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.btn {
+  margin: 30px 0 20px 0;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #33ff85;
+}
+
+.passwords {
+  display: flex;
+  gap: 10px;
+}
+
+.password {
+  background-color: #253134;
+  flex: 1;
+  border-radius: 3px;
+  gap: 10px;
+  height: 30px;
+}
+
+.password:hover {
+  cursor: pointer;
+  background-color: #3d484a;
 }
